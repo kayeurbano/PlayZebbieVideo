@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		907900B816599123004E9A33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907900B716599123004E9A33 /* UIKit.framework */; };
+		907900BA16599123004E9A33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907900B916599123004E9A33 /* Foundation.framework */; };
+		907900BC16599123004E9A33 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907900BB16599123004E9A33 /* CoreGraphics.framework */; };
+		907900C216599124004E9A33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 907900C016599124004E9A33 /* InfoPlist.strings */; };
+		907900C416599124004E9A33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 907900C316599124004E9A33 /* main.m */; };
+		907900C816599124004E9A33 /* PlayVideoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 907900C716599124004E9A33 /* PlayVideoAppDelegate.m */; };
+		907900CB16599124004E9A33 /* PlayVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 907900CA16599124004E9A33 /* PlayVideoViewController.m */; };
+		907900CE16599124004E9A33 /* PlayVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 907900CC16599124004E9A33 /* PlayVideoViewController.xib */; };
+		907900D616599124004E9A33 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907900D516599124004E9A33 /* SenTestingKit.framework */; };
+		907900D716599124004E9A33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907900B716599123004E9A33 /* UIKit.framework */; };
+		907900D816599124004E9A33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907900B916599123004E9A33 /* Foundation.framework */; };
+		907900E016599124004E9A33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 907900DE16599124004E9A33 /* InfoPlist.strings */; };
+		907900E316599124004E9A33 /* PlayZebbieVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 907900E216599124004E9A33 /* PlayZebbieVideoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		907900D916599124004E9A33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 907900AA16599123004E9A33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 907900B216599123004E9A33;
+			remoteInfo = PlayZebbieVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		907900B316599123004E9A33 /* PlayZebbieVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayZebbieVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		907900B716599123004E9A33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		907900B916599123004E9A33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		907900BB16599123004E9A33 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		907900BF16599124004E9A33 /* PlayZebbieVideo-Info.plist */ = {isa = PBXFileReference; path = "PlayZebbieVideo-Info.plist"; sourceTree = "<group>"; };
+		907900C116599124004E9A33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		907900C316599124004E9A33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		907900C516599124004E9A33 /* PlayZebbieVideo-Prefix.pch */ = {isa = PBXFileReference; path = "PlayZebbieVideo-Prefix.pch"; sourceTree = "<group>"; };
+		907900C616599124004E9A33 /* PlayVideoAppDelegate.h */ = {isa = PBXFileReference; path = PlayVideoAppDelegate.h; sourceTree = "<group>"; };
+		907900C716599124004E9A33 /* PlayVideoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayVideoAppDelegate.m; sourceTree = "<group>"; };
+		907900C916599124004E9A33 /* PlayVideoViewController.h */ = {isa = PBXFileReference; path = PlayVideoViewController.h; sourceTree = "<group>"; };
+		907900CA16599124004E9A33 /* PlayVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayVideoViewController.m; sourceTree = "<group>"; };
+		907900CD16599124004E9A33 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PlayVideoViewController.xib; sourceTree = "<group>"; };
+		907900D416599124004E9A33 /* PlayZebbieVideoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayZebbieVideoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		907900D516599124004E9A33 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		907900DD16599124004E9A33 /* PlayZebbieVideoTests-Info.plist */ = {isa = PBXFileReference; path = "PlayZebbieVideoTests-Info.plist"; sourceTree = "<group>"; };
+		907900DF16599124004E9A33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		907900E116599124004E9A33 /* PlayZebbieVideoTests.h */ = {isa = PBXFileReference; path = PlayZebbieVideoTests.h; sourceTree = "<group>"; };
+		907900E216599124004E9A33 /* PlayZebbieVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayZebbieVideoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		907900B016599123004E9A33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907900B816599123004E9A33 /* UIKit.framework in Frameworks */,
+				907900BA16599123004E9A33 /* Foundation.framework in Frameworks */,
+				907900BC16599123004E9A33 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907900D016599124004E9A33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907900D616599124004E9A33 /* SenTestingKit.framework in Frameworks */,
+				907900D716599124004E9A33 /* UIKit.framework in Frameworks */,
+				907900D816599124004E9A33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		907900A816599123004E9A33 = {
+			isa = PBXGroup;
+			children = (
+				907900BD16599123004E9A33 /* PlayZebbieVideo */,
+				907900DB16599124004E9A33 /* PlayZebbieVideoTests */,
+				907900B616599123004E9A33 /* Frameworks */,
+				907900B416599123004E9A33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		907900B416599123004E9A33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				907900B316599123004E9A33 /* PlayZebbieVideo.app */,
+				907900D416599124004E9A33 /* PlayZebbieVideoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		907900B616599123004E9A33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				907900B716599123004E9A33 /* UIKit.framework */,
+				907900B916599123004E9A33 /* Foundation.framework */,
+				907900BB16599123004E9A33 /* CoreGraphics.framework */,
+				907900D516599124004E9A33 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		907900BD16599123004E9A33 /* PlayZebbieVideo */ = {
+			isa = PBXGroup;
+			children = (
+				907900C616599124004E9A33 /* PlayVideoAppDelegate.h */,
+				907900C716599124004E9A33 /* PlayVideoAppDelegate.m */,
+				907900C916599124004E9A33 /* PlayVideoViewController.h */,
+				907900CA16599124004E9A33 /* PlayVideoViewController.m */,
+				907900CC16599124004E9A33 /* PlayVideoViewController.xib */,
+				907900BE16599124004E9A33 /* Supporting Files */,
+			);
+			path = PlayZebbieVideo;
+			sourceTree = "<group>";
+		};
+		907900BE16599124004E9A33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				907900BF16599124004E9A33 /* PlayZebbieVideo-Info.plist */,
+				907900C016599124004E9A33 /* InfoPlist.strings */,
+				907900C316599124004E9A33 /* main.m */,
+				907900C516599124004E9A33 /* PlayZebbieVideo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		907900DB16599124004E9A33 /* PlayZebbieVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				907900E116599124004E9A33 /* PlayZebbieVideoTests.h */,
+				907900E216599124004E9A33 /* PlayZebbieVideoTests.m */,
+				907900DC16599124004E9A33 /* Supporting Files */,
+			);
+			path = PlayZebbieVideoTests;
+			sourceTree = "<group>";
+		};
+		907900DC16599124004E9A33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				907900DD16599124004E9A33 /* PlayZebbieVideoTests-Info.plist */,
+				907900DE16599124004E9A33 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		907900B216599123004E9A33 /* PlayZebbieVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 907900E616599124004E9A33 /* Build configuration list for PBXNativeTarget "PlayZebbieVideo" */;
+			buildPhases = (
+				907900AF16599123004E9A33 /* Sources */,
+				907900B016599123004E9A33 /* Frameworks */,
+				907900B116599123004E9A33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayZebbieVideo;
+			productName = PlayZebbieVideo;
+			productReference = 907900B316599123004E9A33 /* PlayZebbieVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		907900D316599124004E9A33 /* PlayZebbieVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 907900E916599124004E9A33 /* Build configuration list for PBXNativeTarget "PlayZebbieVideoTests" */;
+			buildPhases = (
+				907900CF16599124004E9A33 /* Sources */,
+				907900D016599124004E9A33 /* Frameworks */,
+				907900D116599124004E9A33 /* Resources */,
+				907900D216599124004E9A33 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				907900DA16599124004E9A33 /* PBXTargetDependency */,
+			);
+			name = PlayZebbieVideoTests;
+			productName = PlayZebbieVideoTests;
+			productReference = 907900D416599124004E9A33 /* PlayZebbieVideoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		907900AA16599123004E9A33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PlayVideo;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 907900AD16599123004E9A33 /* Build configuration list for PBXProject "PlayZebbieVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 907900A816599123004E9A33;
+			productRefGroup = 907900B416599123004E9A33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				907900B216599123004E9A33 /* PlayZebbieVideo */,
+				907900D316599124004E9A33 /* PlayZebbieVideoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		907900B116599123004E9A33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907900C216599124004E9A33 /* InfoPlist.strings in Resources */,
+				907900CE16599124004E9A33 /* PlayVideoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907900D116599124004E9A33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907900E016599124004E9A33 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		907900D216599124004E9A33 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		907900AF16599123004E9A33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907900C416599124004E9A33 /* main.m in Sources */,
+				907900C816599124004E9A33 /* PlayVideoAppDelegate.m in Sources */,
+				907900CB16599124004E9A33 /* PlayVideoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907900CF16599124004E9A33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907900E316599124004E9A33 /* PlayZebbieVideoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		907900DA16599124004E9A33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 907900B216599123004E9A33 /* PlayZebbieVideo */;
+			targetProxy = 907900D916599124004E9A33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		907900C016599124004E9A33 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				907900C116599124004E9A33 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		907900CC16599124004E9A33 /* PlayVideoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				907900CD16599124004E9A33 /* en */,
+			);
+			name = PlayVideoViewController.xib;
+			sourceTree = "<group>";
+		};
+		907900DE16599124004E9A33 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				907900DF16599124004E9A33 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		907900E416599124004E9A33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		907900E516599124004E9A33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		907900E716599124004E9A33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlayZebbieVideo/PlayZebbieVideo-Prefix.pch";
+				INFOPLIST_FILE = "PlayZebbieVideo/PlayZebbieVideo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		907900E816599124004E9A33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlayZebbieVideo/PlayZebbieVideo-Prefix.pch";
+				INFOPLIST_FILE = "PlayZebbieVideo/PlayZebbieVideo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		907900EA16599124004E9A33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlayZebbieVideo.app/PlayZebbieVideo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlayZebbieVideo/PlayZebbieVideo-Prefix.pch";
+				INFOPLIST_FILE = "PlayZebbieVideoTests/PlayZebbieVideoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		907900EB16599124004E9A33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlayZebbieVideo.app/PlayZebbieVideo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlayZebbieVideo/PlayZebbieVideo-Prefix.pch";
+				INFOPLIST_FILE = "PlayZebbieVideoTests/PlayZebbieVideoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		907900AD16599123004E9A33 /* Build configuration list for PBXProject "PlayZebbieVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907900E416599124004E9A33 /* Debug */,
+				907900E516599124004E9A33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		907900E616599124004E9A33 /* Build configuration list for PBXNativeTarget "PlayZebbieVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907900E716599124004E9A33 /* Debug */,
+				907900E816599124004E9A33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		907900E916599124004E9A33 /* Build configuration list for PBXNativeTarget "PlayZebbieVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907900EA16599124004E9A33 /* Debug */,
+				907900EB16599124004E9A33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 907900AA16599123004E9A33 /* Project object */;
+}
