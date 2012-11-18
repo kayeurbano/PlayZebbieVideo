@@ -13,7 +13,7 @@
     
 }
 
-@property (strong, retain) MPMoviePlayerController *movie;
+@property (strong) MPMoviePlayerController *movie;
 
 -(IBAction)PlayVideo;
 
