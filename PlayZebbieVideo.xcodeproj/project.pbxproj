@@ -20,6 +20,11 @@
 		907900D816599124004E9A33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907900B916599123004E9A33 /* Foundation.framework */; };
 		907900E016599124004E9A33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 907900DE16599124004E9A33 /* InfoPlist.strings */; };
 		907900E316599124004E9A33 /* PlayZebbieVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 907900E216599124004E9A33 /* PlayZebbieVideoTests.m */; };
+		907900EE165991B7004E9A33 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907900ED165991B7004E9A33 /* MediaPlayer.framework */; };
+		907900F01659922C004E9A33 /* LB60dance.mov in Resources */ = {isa = PBXBuildFile; fileRef = 907900EF1659922C004E9A33 /* LB60dance.mov */; };
+		907900FC16599CE8004E9A33 /* sample_iPod.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 907900F916599CE8004E9A33 /* sample_iPod.m4v */; };
+		907900FD16599CE8004E9A33 /* sample_iTunes.mov in Resources */ = {isa = PBXBuildFile; fileRef = 907900FA16599CE8004E9A33 /* sample_iTunes.mov */; };
+		907900FE16599CE8004E9A33 /* sample_sorenson.mov in Resources */ = {isa = PBXBuildFile; fileRef = 907900FB16599CE8004E9A33 /* sample_sorenson.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +42,27 @@
 		907900B716599123004E9A33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		907900B916599123004E9A33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		907900BB16599123004E9A33 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		907900BF16599124004E9A33 /* PlayZebbieVideo-Info.plist */ = {isa = PBXFileReference; path = "PlayZebbieVideo-Info.plist"; sourceTree = "<group>"; };
+		907900BF16599124004E9A33 /* PlayZebbieVideo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlayZebbieVideo-Info.plist"; sourceTree = "<group>"; };
 		907900C116599124004E9A33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		907900C316599124004E9A33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		907900C516599124004E9A33 /* PlayZebbieVideo-Prefix.pch */ = {isa = PBXFileReference; path = "PlayZebbieVideo-Prefix.pch"; sourceTree = "<group>"; };
-		907900C616599124004E9A33 /* PlayVideoAppDelegate.h */ = {isa = PBXFileReference; path = PlayVideoAppDelegate.h; sourceTree = "<group>"; };
+		907900C516599124004E9A33 /* PlayZebbieVideo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlayZebbieVideo-Prefix.pch"; sourceTree = "<group>"; };
+		907900C616599124004E9A33 /* PlayVideoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayVideoAppDelegate.h; sourceTree = "<group>"; };
 		907900C716599124004E9A33 /* PlayVideoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayVideoAppDelegate.m; sourceTree = "<group>"; };
-		907900C916599124004E9A33 /* PlayVideoViewController.h */ = {isa = PBXFileReference; path = PlayVideoViewController.h; sourceTree = "<group>"; };
+		907900C916599124004E9A33 /* PlayVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayVideoViewController.h; sourceTree = "<group>"; };
 		907900CA16599124004E9A33 /* PlayVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayVideoViewController.m; sourceTree = "<group>"; };
 		907900CD16599124004E9A33 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PlayVideoViewController.xib; sourceTree = "<group>"; };
 		907900D416599124004E9A33 /* PlayZebbieVideoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayZebbieVideoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		907900D516599124004E9A33 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		907900DD16599124004E9A33 /* PlayZebbieVideoTests-Info.plist */ = {isa = PBXFileReference; path = "PlayZebbieVideoTests-Info.plist"; sourceTree = "<group>"; };
+		907900DD16599124004E9A33 /* PlayZebbieVideoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlayZebbieVideoTests-Info.plist"; sourceTree = "<group>"; };
 		907900DF16599124004E9A33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		907900E116599124004E9A33 /* PlayZebbieVideoTests.h */ = {isa = PBXFileReference; path = PlayZebbieVideoTests.h; sourceTree = "<group>"; };
+		907900E116599124004E9A33 /* PlayZebbieVideoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayZebbieVideoTests.h; sourceTree = "<group>"; };
 		907900E216599124004E9A33 /* PlayZebbieVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayZebbieVideoTests.m; sourceTree = "<group>"; };
+		907900EC16599130004E9A33 /* PlayZebbieVideo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PlayZebbieVideo.entitlements; sourceTree = "<group>"; };
+		907900ED165991B7004E9A33 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		907900EF1659922C004E9A33 /* LB60dance.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = LB60dance.mov; sourceTree = "<group>"; };
+		907900F916599CE8004E9A33 /* sample_iPod.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample_iPod.m4v; sourceTree = "<group>"; };
+		907900FA16599CE8004E9A33 /* sample_iTunes.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = sample_iTunes.mov; sourceTree = "<group>"; };
+		907900FB16599CE8004E9A33 /* sample_sorenson.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = sample_sorenson.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +71,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				907900B816599123004E9A33 /* UIKit.framework in Frameworks */,
+				907900EE165991B7004E9A33 /* MediaPlayer.framework in Frameworks */,
 				907900BA16599123004E9A33 /* Foundation.framework in Frameworks */,
 				907900BC16599123004E9A33 /* CoreGraphics.framework in Frameworks */,
 			);
@@ -100,6 +112,7 @@
 		907900B616599123004E9A33 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				907900ED165991B7004E9A33 /* MediaPlayer.framework */,
 				907900B716599123004E9A33 /* UIKit.framework */,
 				907900B916599123004E9A33 /* Foundation.framework */,
 				907900BB16599123004E9A33 /* CoreGraphics.framework */,
@@ -111,6 +124,7 @@
 		907900BD16599123004E9A33 /* PlayZebbieVideo */ = {
 			isa = PBXGroup;
 			children = (
+				907900EC16599130004E9A33 /* PlayZebbieVideo.entitlements */,
 				907900C616599124004E9A33 /* PlayVideoAppDelegate.h */,
 				907900C716599124004E9A33 /* PlayVideoAppDelegate.m */,
 				907900C916599124004E9A33 /* PlayVideoViewController.h */,
@@ -124,6 +138,10 @@
 		907900BE16599124004E9A33 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				907900F916599CE8004E9A33 /* sample_iPod.m4v */,
+				907900FA16599CE8004E9A33 /* sample_iTunes.mov */,
+				907900FB16599CE8004E9A33 /* sample_sorenson.mov */,
+				907900EF1659922C004E9A33 /* LB60dance.mov */,
 				907900BF16599124004E9A33 /* PlayZebbieVideo-Info.plist */,
 				907900C016599124004E9A33 /* InfoPlist.strings */,
 				907900C316599124004E9A33 /* main.m */,
@@ -224,6 +242,7 @@
 			files = (
 				907900C216599124004E9A33 /* InfoPlist.strings in Resources */,
 				907900CE16599124004E9A33 /* PlayVideoViewController.xib in Resources */,
+				907900F01659922C004E9A33 /* LB60dance.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +251,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				907900E016599124004E9A33 /* InfoPlist.strings in Resources */,
+				907900FC16599CE8004E9A33 /* sample_iPod.m4v in Resources */,
+				907900FD16599CE8004E9A33 /* sample_iTunes.mov in Resources */,
+				907900FE16599CE8004E9A33 /* sample_sorenson.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +382,7 @@
 		907900E716599124004E9A33 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PlayZebbieVideo/PlayZebbieVideo.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PlayZebbieVideo/PlayZebbieVideo-Prefix.pch";
 				INFOPLIST_FILE = "PlayZebbieVideo/PlayZebbieVideo-Info.plist";
@@ -371,6 +394,7 @@
 		907900E816599124004E9A33 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PlayZebbieVideo/PlayZebbieVideo.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PlayZebbieVideo/PlayZebbieVideo-Prefix.pch";
 				INFOPLIST_FILE = "PlayZebbieVideo/PlayZebbieVideo-Info.plist";

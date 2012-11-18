@@ -14,21 +14,31 @@
 
 @implementation PlayVideoViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+@synthesize movie;
+
+-(void)viewDidLoad{
+    
 }
 
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
+-(IBAction)PlayVideo{
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"LB60dance" ofType:@"mov"]];
+    
+    movie = [[MPMoviePlayerController alloc] initWithContentURL: url];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(moviePlayBackDidFinish:) name:MPMoviePlayerPlaybackDidFinishNotification object:movie];
+    
+    movie.controlStyle = MPMovieControlStyleDefault;
+    movie.shouldAutoplay = YES;
+    [self.view addSubview:movie.view];
+    [movie setFullscreen:YES animated:YES];    
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    return YES;
+-(void) moviePlayBackDidFinish:(NSNotification *)notification{
+    movie = [notification object];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:MPMoviePlayerPlaybackDidFinishNotification object:movie];
+    if([movie respondsToSelector:@selector(setFullscreen:animated:)]){
+        [movie.view removeFromSuperview];
+    }
 }
-
+    
 @end

@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Mediaplayer/Mediaplayer.h>
 
-@interface PlayVideoViewController : UIViewController
+@interface PlayVideoViewController : UIViewController{
+    
+}
+
+@property (strong, retain) MPMoviePlayerController *movie;
+
+-(IBAction)PlayVideo;
 
 @end
